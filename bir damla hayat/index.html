@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bir Damla Hayat</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Princess+Sofia&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- icon eklemek için fontawesome linki -->
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <!-- <img class="navbar-img" src="/assets/images/favicon.ico" alt=""> -->
+            <a class="navbar-brand me-auto" href="/index.html">Bir Damla Hayat</a>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bir Damla Hayat</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="/suyun-onemı.html">Suyun
+                                Önemi</a>
+                        </li>
+                        <li class="nav-item dropdown mx-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Su Kullanım Alanları
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/tarım.html">Evsel Kullanım</a></li>
+                                <li><a class="dropdown-item" href="/tarım.html">Tarımda Su Kullanımı</a></li>
+                                <li><a class="dropdown-item" href="#">Sanayide su kullanmı</a></li>
+                                <li><a class="dropdown-item" href="#">Enerji ve Ulaşım</a></li>
+                                <li><a class="dropdown-item" href="#">Acil Durum ve Afet Yönetimi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Su Ayak İzi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">İstatistikler ve Gerçekler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Kaynaklar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="/farkındalık.html">Farkındalık Testi</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <a href="#" class="contact-button">İletişim</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero section -->
+
+    <section class="hero-section">
+        <!-- slider -->
+        <!-- <div id="carouselExampleCaptions" class="carousel slide carousel-fade carousel-container"
+            data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="hover">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/images/dünyasukaynakları.jpg" class="d-block w-100 carousel-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-caption-title">Dünya Su Kaynaklarının Azalması</h5>
+                        <p>Her geçen gün artan nüfus, iklim değişikliği ve bilinçsiz tüketim, temiz su kaynaklarını
+                            hızla azaltıyor. Su, geleceğin en değerli hazinesi.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/iklim değişiklikleri.jpg" class="d-block w-100 carousel-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>İklim Değişikliğinin Etkileri</h5>
+                        <p>Artan sıcaklıklar, kuraklıklar ve aşırı hava olayları, doğayı ve yaşamı tehdit ediyor.
+                            Geleceğimizi korumak için harekete geçmeliyiz.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/günlük-yaşamda-su.png" class="d-block w-100 carousel-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Günlük Yaşamda Su İsrafı</h5>
+                        <p>Muslukları açık bırakmak, gereksiz su tüketimi ve sızıntılar, her gün değerli suyun boşa
+                            gitmesine yol açıyor. Küçük önlemlerle büyük fark yaratabiliriz.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div> -->
+        <!-- End slider -->
+
+        <div class="background-img">
+            <div
+                class="background-container d-flex align-items-center justify-content-center fs-1 text-white flex-column ">
+                <h1><b>Her Damla Değerli!</b></h1>
+                <h2><b>Gelecek nesillere temiz su bırakmak elimizde.</b></h2>
+            </div>
+        </div>
+
+        <!-- Sayaç Başlangıç -->
+        <div class="container my-5">
+            <h3 class="mb-3">Bugün tüketilen su miktarı:</h3>
+            <h4><span id="suSayaci">0</span> litre</h4>
+
+            <div class="progress mt-4" style="height: 30px;">
+                <div id="progressBar" class="progress-bar " role="progressbar" style="width: 0%;"
+                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    0%
+                </div>
+            </div>
+        </div>
+        <!-- sayaç bitiş -->
+        <!-- sayfa içeriği başlangıç -->
+        <div class="home-page-content">
+            <h2>Bir Damla Su ile Geleceğe Umut</h2>
+            <p>
+                Su, yaşamın en temel kaynağıdır. İnsanların, hayvanların ve bitkilerin varlığı
+                için vazgeçilmezdir. Ancak hızla artan nüfus, iklim değişiklikleri ve bilinçsiz
+                tüketim alışkanlıkları, temiz su kaynaklarını tehdit etmektedir.
+            </p>
+            <p>
+                <strong>Bir Damla Su</strong> projesi, bu değerli kaynağın önemini vurgulamak,
+                suyun doğru ve bilinçli kullanımını teşvik etmek için yola çıktı.
+                Her damla değerlidir ve her bireyin yapacağı küçük tasarruflar büyük bir fark
+                yaratabilir.
+            </p>
+            <p>
+                Amacımız; toplumu bilinçlendirmek, sürdürülebilir çözümler üretmek ve
+                geleceğimiz için suyun korunmasına katkı sağlamaktır. Bugün atacağımız adımlar,
+                yarının dünyasında çocuklarımıza bırakacağımız en kıymetli miras olacaktır.
+            </p>
+
+        </div>
+        <!-- sayfa içeriği bitiş -->
+        <!-- card başlangıç -->
+        <div class="card-container">
+            <div class="card">
+                <img src="assets/images/evdesu.jpeg" alt="">
+                <div class="info">
+                    <h1>Evde Su Kullanımı</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsum?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/bahcede.jpeg" alt="">
+                <div class="info">
+                    <h1>Bahçede Su Kullanımı</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsum?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/sanayivetarım.jpeg" alt="">
+                <div class="info">
+                    <h1>Tarımda Su Kullanımı</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsum?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/küresel perspektif.jpeg" alt="">
+                <div class="info">
+                    <h1>Küresel Perspektifte Su Kullanımı</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsum?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- card bitiş -->
+
+
+    </section>
+
+
+    <!--End hero section -->
+
+    <!-- scroll to top butonu -->
+    <button id="backToTop" title="Yukarı Çık">↑</button>
+
+    <!-- footer -->
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Bir Damla Hayat</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Suyun Önemi</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Su Ayak İzi</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Kaynaklar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Farkındalık Testi</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">İletişim</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
+        </footer>
+    </div>
+    <!-- End Footer -->
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
